@@ -39,6 +39,8 @@ You can use the example [here](https://github.com/cosmos/cosmos-sdk/blob/v0.42.0
 
 THIS IS JUST A TEST 
 
+TESTING SIGNED
+
 The simulator tests different scenarios and values for genesis parameters
 in order to fully test the edge cases of specific modules. The `simulator` package from each module must expose a `RandomizedGenState` function to generate the initial random `GenesisState` from a given seed.
 
